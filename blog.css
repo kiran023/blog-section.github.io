@@ -29,6 +29,16 @@
     }
 }
 
+@media only screen and (max-width:560px){
+    #blogSection #blog-container #blog-innercontainer .blog-box{
+        width: 100%;
+        height: 310px;
+    }
+    #blogSection #blog-container #blog-innercontainer  {
+        flex-direction: column;
+    } 
+}
+
 *{
 
     box-sizing: border-box;
